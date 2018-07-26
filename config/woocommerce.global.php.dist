@@ -1,0 +1,14 @@
+<?php
+
+return [
+    'woocommerce' => [
+        'url' => 'https://example.com',
+        'customer_key' => 'ck_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+        'customer_secret' => 'cs_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+        // see https://github.com/woocommerce/wc-api-php for all options
+        'options' => [
+             'wp_api' => true,
+             'version' => 'wc/v2',
+         ],
+    ]
+];

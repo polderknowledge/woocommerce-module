@@ -1,0 +1,16 @@
+{
+    "name": "polderknowledge/woocommerce-module",
+    "type": "library",
+    "description": "WooCommerce client for Zend Framework 3",
+    "homepage": "https://polderknowledge.com",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PolderKnowledge\\WooCommerce\\": "src/"
+        }
+    },
+    "require": {
+        "automattic/woocommerce": "^2.0",
+        "zendframework/zend-mvc": "^3.1"
+    }
+}
